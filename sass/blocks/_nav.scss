@@ -5,15 +5,28 @@
     column-gap: 80px;
     align-items: center;
     z-index: 1;
+
+    &--footer {
+        color: #0F1F1C;
+        padding-bottom: 74px;
+    }
 }
 
 .nav__logo {
+    a {
+        color: inherit;
+    }
     h2 {
         font-weight: 700;
         font-size: 20px;
         line-height: 30px;
         
         color: #FFFFFF
+    }
+
+    &--footer h2 {
+        color: #FF7C4E;
+
     }
 }
 
@@ -25,6 +38,7 @@
     line-height: 22px;
 
     a {
+        color: inherit;
         position: relative;
     }
 
@@ -40,6 +54,18 @@
         border-radius: 100px;
         background-color:#C4C4C4;
     }
+
+    &--footer {
+        color: #838B89
+    }
+    &--footer a.active::after,
+    &--footer a:hover::after {
+        display: none;
+    }
+    &--footer a.active,
+    &--footer a:hover {
+        color: #FF7C4E;
+    }
 }
 
 .nav__login {
@@ -49,4 +75,14 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
+
+
+
+    &--footer li:first-child {
+        a {
+            color: inherit;
+        }
+        margin-right: 66px;
+        color: #838B89;
+    }
 }

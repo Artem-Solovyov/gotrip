@@ -1,0 +1,56 @@
+.cta {
+    &__plate {
+        position: relative;
+        padding-top: 116px;
+        padding-bottom: 115px;
+        text-align: center;
+        width: 100%;
+        background: #fff;
+        border-radius: 60px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 63px;
+            height: 83px;
+            left: 74px;
+            bottom: 56px;
+            background-image: url('./../img/cta/cta-el-02.svg');
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 63px;
+            height: 83px;
+            top: 74px;
+            right: 80px;
+            background-image: url('./../img/cta/cta-el-01.svg');
+        }
+
+    }
+    
+    &__title {
+    
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 68px;
+        padding-bottom: 30px;
+        
+
+    }
+    
+    &__text {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        
+        text-align: center;
+        
+        color: #0F1F1C;
+        
+        opacity: 0.5;
+        padding-bottom: 60px;
+
+    }
+
+}
