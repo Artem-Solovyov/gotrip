@@ -18,3 +18,19 @@ body {
 a {
     color: #fff
 }
+
+.no-scrolle {
+    overflow-y: hidden;
+}
+
+.none {
+    display: none;
+}
+
+// MEDIA 
+
+@media (max-width: 1270px) {
+    .container-right {
+        padding-left: 15px;
+    }
+}

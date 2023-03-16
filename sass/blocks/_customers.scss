@@ -71,3 +71,98 @@
     height: 59px;
   }
 }
+
+
+// MEDIA 
+
+@media (max-width: 1060px) {
+  .customers__title {
+    font-size: 38px;
+  }
+
+  .review__client {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .customers__title {
+    font-size: 34px;
+  }
+
+  .customers__row {
+    column-gap: 18px;
+  }
+}
+
+@media (max-width: 950px) {
+  .review__client-desc h3 {
+    font-size: 26px;
+    padding-bottom: 5px;
+  }
+
+  .review__client-desc p {
+    font-size: 18px;
+  }
+
+  .review__text {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 850px) {
+  .customers {
+      margin-bottom: 70px;
+      margin-top: 50px;
+      &__title {
+        max-width: 650px;
+        text-align: center;
+      }
+
+
+    }
+    .customers__row {
+      flex-direction: column-reverse;
+      align-items: center;
+    
+    }
+    .review {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__text {
+        text-align: center;
+      }
+      &__rating {
+        margin: 0 auto;
+        max-width: 200px;
+        padding-bottom: 50px;
+      }
+    }
+  
+}
+
+@media (max-width: 550px) {
+  .customers__img img {
+    max-width: 252px;
+    height: 283px;
+    border-radius: 30px;
+  }
+}
+@media (max-width: 350px) {
+  .customers {
+      margin-bottom: 40px;
+      margin-top: 20px;
+  
+      &__title {
+        font-size: 28px;
+      }
+  
+    }
+  
+    .review__client-desc h3 {
+      font-size: 22px;
+      padding-bottom: 2px;
+    }
+}
